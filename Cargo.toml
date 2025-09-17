@@ -1,0 +1,11 @@
+[package]
+name = "des_aes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cliclack = "0.3.6"
+easydes = "0.1.6"
+rand = "0.9.2"
+soft-aes = "0.2.2"
+tinyaes = "0.1.0"

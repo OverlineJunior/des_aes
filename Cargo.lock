@@ -96,7 +96,6 @@ dependencies = [
  "easydes",
  "rand",
  "soft-aes",
- "tinyaes",
 ]
 
 [[package]]
@@ -334,21 +333,6 @@ dependencies = [
  "unicode-linebreak",
  "unicode-width",
 ]
-
-[[package]]
-name = "tinyaes"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "15ec272cb60853b6918438525bff2b9c47e04ea9da4fe3f820239f7e89e1f92d"
-dependencies = [
- "tinypool",
-]
-
-[[package]]
-name = "tinypool"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0ff75d75441bc7adb84a685756aef622fc7ad55902a1ebc2274e2becb26334b6"
 
 [[package]]
 name = "unicode-ident"

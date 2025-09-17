@@ -18,7 +18,7 @@ type Program = fn(Action, Algorithm, Vec<u8>, Option<Vec<u8>>) -> ();
 pub fn run_cli(program: Program) -> io::Result<()> {
     cliclack::clear_screen()?;
 
-    cliclack::intro("My intro!")?;
+    cliclack::intro("des_aes")?;
 
     let action = read_action()?;
     let algorithm = read_algorithm()?;

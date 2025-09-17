@@ -1,3 +1,6 @@
+// Most comments are in aes.rs.
+
+// https://crates.io/crates/easydes.
 use easydes::easydes;
 
 use crate::crypto::random_utf8_key;

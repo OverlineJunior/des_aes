@@ -3,6 +3,7 @@ use rand::Rng;
 pub mod aes;
 pub mod des;
 
+// Keys are UTF-8 only so it's easier to copy/paste them.
 fn random_utf8_key(bytes: usize) -> Vec<u8> {
 	let mut key = Vec::new();
 	let charset = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\
